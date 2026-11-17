@@ -1,17 +1,21 @@
-# ⚙️ Code_C
+# 📊 R
 
-Programas em linguagem C: lógica de programação, ponteiros, vetores e estruturas de dados.
+Análise de dados, estatística e visualização com R.
 
 ## 📂 Estrutura
-- `01-basico/` – entrada/saída, operadores, condicionais
-- `02-vetores-e-strings/`
-- `03-ponteiros-e-structs/`
-- `04-estruturas-de-dados/` – [pilhas, filas, listas...]
+- `01-introducao/`
+- `02-estatistica-descritiva/`
+- `03-visualizacao/` – gráficos com ggplot2
+- `04-projetos/` – [análises completas]
+- `dados/` – bases usadas nos scripts
 
-## ▶️ Como compilar e executar
-​```bash
-gcc arquivo.c -o programa
-./programa
+## 🛠️ Pacotes
+tidyverse · ggplot2 · [outros]
+
+## ▶️ Como executar
+Abra o script no RStudio e rode com `Ctrl+Enter`, ou use:
+​```r
+source("caminho/do/script.R")
 ​```
 
 ## 👤 Autor
